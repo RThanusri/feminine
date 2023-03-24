@@ -839,10 +839,11 @@
            echo "<p>You may be at the risk of PCOS</p>";
         }
 
-    }
+    
      
-    else{
-        echo "<p>Please submit the form above to get a prediction.</p>";
+       else{
+           echo "<p>Please submit the form above to get a prediction.</p>";
+    }
     }
    
     // else {
