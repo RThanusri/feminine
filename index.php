@@ -828,10 +828,10 @@
             ])
         ]
     ]));
-    }
+    
 
     
-    $yummy = json_decode($json1);
+        $yummy = json_decode($json1);
         if ($yummy->pcos=='mb n') {
            echo "<p>You may not be at the risk of PCOS</p>";
         }
@@ -839,7 +839,7 @@
         elseif ($yummy->pcos =='mb y') {
            echo "<p>You may be at the risk of PCOS</p>";
         }
-
+    }
     
      
         else{
