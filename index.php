@@ -828,6 +828,7 @@
             ])
         ]
     ]));
+    }
 
     
     $yummy = json_decode($json1);
@@ -841,10 +842,10 @@
 
     
      
-       else{
+        else{
            echo "<p>Please submit the form above to get a prediction.</p>";
     }
-    }
+    
    
     // else {
     //     $yummy = json_decode($json1);
